@@ -17,7 +17,7 @@ class _TapperPageState extends State<TapperPage> {
     double progressPercent = tapCount / tapGoal * 100;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tapper!'),
+        title: Text('Tapper!', style: TextStyle(color: Colors.white),),
         backgroundColor: Colors.grey[850],
         centerTitle: true,
       ),
