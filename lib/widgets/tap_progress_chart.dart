@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class TapProgressChart extends StatelessWidget {
+  // global var for progress
   final double progressPercent;
 
   TapProgressChart({Key? key, required this.progressPercent}) : super(key: key);
@@ -9,7 +10,7 @@ class TapProgressChart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SfCircularChart(
-      annotations: <CircularChartAnnotation>[
+      annotations: <CircularChartAnnotation>[ // for circular progress bar
         CircularChartAnnotation(
           widget: Container(
             child: Text(

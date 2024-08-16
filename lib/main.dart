@@ -4,7 +4,7 @@ import 'screens/tapper_page.dart';  // Assuming tapper_page.dart is in the same 
 void main() {
   runApp(const MyApp());
 }
-
+// main file where we launch the whole app
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 

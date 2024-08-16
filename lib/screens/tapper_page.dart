@@ -57,6 +57,7 @@ class _TapperPageState extends State<TapperPage> {
     );
   }
 
+  // stat card displaying percent, and time frame
   Widget _buildStatCard(String percent, String timeFrame) {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
@@ -72,7 +73,7 @@ class _TapperPageState extends State<TapperPage> {
       ),
     );
   }
-
+  // onclick button for goal++, tap, and reset
   Widget _buildButton(String text, VoidCallback onPressed) {
     return ElevatedButton(
         onPressed: onPressed,
@@ -83,7 +84,7 @@ class _TapperPageState extends State<TapperPage> {
         ),
     );
 }
-
+  // some logic behind the scene
   void incrementTap() {
     if (tapCount < tapGoal) {
       setState(() {
