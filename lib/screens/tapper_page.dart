@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widgets/tap_progress_chart.dart';  // Make sure the path to this import is correct based on your project structure
+import '../widgets/tap_progress_chart.dart';
 
 class TapperPage extends StatefulWidget {
   const TapperPage({Key? key}) : super(key: key);

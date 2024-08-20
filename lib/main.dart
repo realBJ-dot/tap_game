@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/tapper_page.dart';  // Assuming tapper_page.dart is in the same directory
+import 'screens/tapper_page.dart';  
 
 void main() {
   runApp(const MyApp());

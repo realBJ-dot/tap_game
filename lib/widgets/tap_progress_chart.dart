@@ -32,8 +32,8 @@ class TapProgressChart extends StatelessWidget {
           radius: '100%',
           innerRadius: '80%',
           strokeWidth: 20,
-          startAngle: 270, // Adjust the start angle
-          endAngle: 270, // Adjust the end angle
+          startAngle: 270, 
+          endAngle: 270, 
         ),
       ],
     );
